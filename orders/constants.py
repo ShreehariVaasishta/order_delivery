@@ -10,9 +10,3 @@ DELIVERY_FEEE_PRICE = {
     20000: 1000,
     LAST_RANGE: 5000,
 }
-
-BASE_JSON_POST_DATA = {
-    "order_items": [{"name": "bread", "quantity": 2, "price": 2200}, {"name": "butter", "quantity": 1, "price": 5900}],
-    "distance": 1200,
-    "offer": {"offer_type": "FLAT", "offer_val": 1000},
-}
