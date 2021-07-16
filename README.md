@@ -26,8 +26,8 @@ pip3 install -r requirements.txt
 ```
 3. Create a `.env` file and make sure the following variables are set
 ```
-DJANGO_SECRET_KEY
-DEBUG
+DJANGO_SECRET_KEY=
+DEBUG=
 ```
 4. Start the django server 
 ```
@@ -53,6 +53,18 @@ OR
 python3 manage.py test
 ```
 Test case results will be displayed in the terminal.
+
+# Tech Stack (Programming Language, Framework(s))
+* Python
+* Django
+* Django Rest Framework
+
+# Technical Decisions
+1. Added type annotations and comments everywhere which improves code readability
+2. Used DjangoRestFramework's serializers to validate the request body. Which keeps code readable, modularised and also maintainable.
+3. Used python dictionaries to store distance range and price allotted to the respective distance.
+4. Moved utility functions to utility folder. This should keep them easily accessible instead of searching the whole file.
+5. Constants have a dedicated file in the app which might not change frequently.
 
 # Screenshots
 1. With FLAT offer
