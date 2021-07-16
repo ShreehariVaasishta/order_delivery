@@ -50,3 +50,17 @@ OR
 python3 manage.py test
 ```
 Test case results will be displayed in the terminal.
+
+# Screenshots
+1. With FLAT offer
+![Flat](./demo-images/order-1.png)
+2. With DELIVERY offer
+![Delivery](./demo-images/order-2.png)
+3. Without OFFER
+![No offer](./demo-images/order-3.png)
+4. Order 4
+![Order 4](./demo-images/order-4.png)
+5. Order 5
+![Order 5](./demo-images/order-5.png)
+6. Order 6
+![Order 6](./demo-images/order-6.png)
