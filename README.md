@@ -8,6 +8,9 @@ A simple order delivery API app using Python, Django, Django Rest Framework
 - [ ] Save orders to database
 - [ ] Order Tracking
 
+## Demo
+This Django application is hosted on aws ec2 instance in <b>DEBUG</b> mode and it can be accessed [here](http://ec2-15-207-115-148.ap-south-1.compute.amazonaws.com/api/calculate-order/). It is hosted using Nginx, Supervisor, Gunicorn.
+
 ## Usage
 1. Clone this repository
 ```
